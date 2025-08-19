@@ -1,0 +1,16 @@
+{
+  "num_threads": 16,
+  "path_to_math_json": "./mathematica/stokes_torus.json",
+  "orders": {
+    "order_u": 2,
+    "order_p": 2
+  },
+  "meshing_params": {
+    "max_nref": 4
+  },
+  "out_params": {
+    "txt_out": true,
+    "vtk_out": false,
+    "solver_logs": false
+  }
+}

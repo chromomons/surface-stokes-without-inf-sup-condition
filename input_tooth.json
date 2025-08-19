@@ -1,0 +1,15 @@
+{
+  "num_threads": 16,
+  "path_to_math_json": "./mathematica/stokes_tooth.json",
+  "orders": {
+    "order_u": 3,
+    "order_p": 3
+  },
+  "meshing_params": {
+    "max_nref": 2
+  },
+  "out_params": {
+    "vtk_out": true,
+    "solver_logs": false
+  }
+}
