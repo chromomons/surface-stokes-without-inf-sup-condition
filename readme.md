@@ -2,7 +2,7 @@
 ### Author: Mansur Shakipov
 This repository hosts the reproducible code for the manuscript
 
-[1] R. H. Nochetto, M. Shakipov. "Surface Stokes Without Inf-Sup Condition". arXiv: .
+[1] R. H. Nochetto, M. Shakipov. "Surface Stokes Without Inf-Sup Condition". arXiv: http://arxiv.org/abs/2508.13342.
 
 This project is implemented in the `NGSolve` library:
 
