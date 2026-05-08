@@ -243,13 +243,13 @@ def figure_tooth(maxh, nref, exact, order_u, order_p, logs=False):
     a += lam * q * ds
 
     # new part
-    a += (-2.0) * InnerProduct(Cmat * u, grad(q).Trace()) * ds
+    a += (-1.0) * InnerProduct(Cmat * u, grad(q).Trace()) * ds
 
     a += p * mu * ds
 
     f = LinearForm(fes)
     f += InnerProduct(Pmat * coef_f, Pmat * v) * ds
-    f += (Pmat * coef_f + 2 * Pmat * coef_fun_grad(coef_g)) * grad(q).Trace() * ds
+    f += (Pmat * coef_f + Pmat * coef_fun_grad(coef_g)) * grad(q).Trace() * ds
     f += alpha * coef_g * q * ds
     f += p_mean * mu * ds
 
